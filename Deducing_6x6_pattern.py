@@ -463,7 +463,7 @@ for table in range(times_of_trial):
     # Referring to deducing rate. we recommend readers to change this parameter.
     beta                        = 0.1
     # Referring to deducing epcohs "between each mandatory pulse". we recommend readers to change this parameter.
-    epoch_of_deducing           = 2000
+    epoch_of_deducing           = 5000
     # Referring to the rate of neurons dropped out in the hidden layers. For example, if drop_rate = 0.2, it means 20% of the neurons in the hidden layers will be dropped out on a random base.  we recommend readers to change this parameter.
     drop_rate                   = 0.1
 
