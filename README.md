@@ -3,7 +3,7 @@
 This repository contains codes illustrating how deep deducing solves Sudoku.
 
 ## Learning phase content
-<div class="text-white bg-blue mb-2">
+
 ```
 Learning.py              --- creates set of weight matrix.
 ```
@@ -11,7 +11,7 @@ Learning.py              --- creates set of weight matrix.
 ```
 Brain_for_learning.py    --- where simple deep feedforward neural network for Learning.py is imported.
 ```
-</div>
+
 ## Deducing phase content
 
 ```
@@ -26,7 +26,9 @@ Brain_for_deducing.py    --- where simple deep feedforward neural network for De
 
 ```
 self.{6x6}_{original}_{1}_{100x100x100}_{30}_{0.000001}_{200m}_{[1]}_{weight_list} --- means a single set of weight matrix.
+```
 
+```
 The meaning of each bracket is listed below:
 ---  {6x6}
           Meaning this neural network is trained to solve each row, column and grid in 6x6 Sudoku.
