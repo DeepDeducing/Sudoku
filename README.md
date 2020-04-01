@@ -41,7 +41,9 @@ means a single set of weight matrix.
 
 The definition for each bracket is listed below:
 
-```{6x6}```         Meaning this neural network is trained to solve each row, column and grid in 6x6 Sudoku.
+```<div class="text-purple">
+  This text is purple, <a href="#" class="text-inherit">including the link</a>
+</div>```         Meaning this neural network is trained to solve each row, column and grid in 6x6 Sudoku.
           
 ```{original}```    Meaning the payoff rule in the learning phase for this trained neural network is original.
           In other situation, for example, {odd_even} means the neural network must not only contain total different 
