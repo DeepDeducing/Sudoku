@@ -32,9 +32,8 @@ where simple deep feedforward neural network for Deducing.py is imported.
 
 ## Sets of weight matrix
 
-```
-self.{6x6}_{original}_{1}_{100x100x100}_{30}_{0.000001}_{200m}_{[1]}_{weight_list}
-```
+```self.{6x6}_{original}_{1}_{100x100x100}_{30}_{0.000001}_{200m}_{[1]}_{weight_list}```
+
 
 means a single set of weight matrix.
 
