@@ -55,39 +55,39 @@ means the sample batch in the learning phase for this trained neural network is 
 ```100x100x100```  
 means the trained neural network has three hidden layers, each with 100 neurons.
           
-**```30```**          
+```30```          
 means the initial value for the set of slope multiplie to be updated in the learning phase.
           
-**```0.000001```**    
+```0.000001```    
 means the learning rate in the learning phase for this trained neural network is 0.000001.
 
-**```200m```**        
+```200m```        
 means the learning epochs in the learning phase for this trained neural network is 200 million or 2*10^8. The learning epochs are usually big in order to force the neural network to over-fit.
 
-**```[1]```**    
+```[1]```    
 means the label of this trained neural network under the above training condition.
           For example, if it is [3], then it means this neural network is the third neural network under the training condition 
           {original}_{1}_{100x100x100}_{30}_{0.000001}_{200m}.
           
-**```weight_list```**  
+```weight_list```  
 means the set of weight matrix of this trained neural network.
 
 
 ## Prerequisites
 
-**```
+```
 numpy
-```**
+```
 
 
-**```
+```
 scipy
-```**
+```
 
 ## Running the tests
 
-**```
+```
 Deducing.py  
-```**
+```
 
 
