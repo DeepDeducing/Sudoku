@@ -57,7 +57,7 @@ The definition for each bracket is listed below:
 
 ```{200m}``` Meaning the learning epochs in the learning phase for this trained neural network is 200 million or 2*10^8. The learning epochs are usually big in order to force the neural network to over-fit.
 
-```{[1]}``` Meaning the label of this trained neural network under the training condition {original}_{1}_{100x100x100}_{30}_{0.000001}_{200m}.
+```{[1]}``` Meaning the label of this trained neural network under the above training condition.
           For example, if it is [3], then it means this neural network is the third neural network under the training condition 
           {original}_{1}_{100x100x100}_{30}_{0.000001}_{200m}.
           
