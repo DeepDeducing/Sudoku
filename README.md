@@ -33,13 +33,13 @@ where simple deep feedforward neural network for Deducing.py is imported.
 ## Sets of weight matrix
 
 
-self.```6x6```_```original``````1``````100x100x100``````30``````0.000001``````200m``````[1]``````weight_list```
+self.```6x6```_```original```_```1```_```100x100x100```_```30```_```0.000001```_```200m```_```[1]```_```weight_list```
 
 
 means a single set of weight matrix.
 
 
-The definition for each bracket is listed below:
+The definition for each bracket (from left to right) is listed below:
 
 ```6x6```    
 means this neural network is trained to solve each row, column and grid in 6x6 Sudoku.
@@ -67,7 +67,7 @@ means the learning epochs in the learning phase for this trained neural network 
 ```[1]```    
 means the label of this trained neural network under the above training condition.
           For example, if it is [3], then it means this neural network is the third neural network under the training condition 
-          {original}_{1}_{100x100x100}_{30}_{0.000001}_{200m}.
+          ```original```_```1```_```100x100x100```_```30```_```0.000001```_```200m```.
           
 ```weight_list```  
 means the set of weight matrix of this trained neural network.
