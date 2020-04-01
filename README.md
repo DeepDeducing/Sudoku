@@ -1,9 +1,9 @@
 # Deep Deducing on Sudoku
 
 This repository contains codes illustrating how deep deducing solves Sudoku.
-<div class="text-white bg-blue mb-2">
-## Learning phase content
 
+## Learning phase content
+<div class="text-white bg-blue mb-2">
 ```
 Learning.py              --- creates set of weight matrix.
 ```
