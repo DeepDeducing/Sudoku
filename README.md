@@ -72,11 +72,13 @@ means the label of this trained neural network under the above training conditio
 **```weight_list```**  
 means the set of weight matrix of this trained neural network.
 
+
 ## Prerequisites
 
 **```
 numpy
 ```**
+
 
 **```
 scipy
