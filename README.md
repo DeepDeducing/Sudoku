@@ -41,7 +41,7 @@ means a single set of weight matrix.
 
 The meaning inside each bracket is listed below:
 
-*  {6x6}
+          {6x6}
           Meaning this neural network is trained to solve each row, column and grid in 6x6 Sudoku.
           
 *  {original}
@@ -55,9 +55,7 @@ The meaning inside each bracket is listed below:
 *  {100x100x100}
           Meaning the trained neural network has three hidden layers, each with 100 neurons.
           
-*  {30}
-
-          Meaning the initial value for the set of slope multiplie to be updated in the learning phase.
+*  {30}   Meaning the initial value for the set of slope multiplie to be updated in the learning phase.
           
 *  {0.000001}
           Meaning the learning rate in the learning phase for this trained neural network is 0.000001.
