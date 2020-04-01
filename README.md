@@ -41,19 +41,15 @@ means a single set of weight matrix.
 
 The meaning inside each bracket is listed below:
 
-          {6x6}
-          Meaning this neural network is trained to solve each row, column and grid in 6x6 Sudoku.
+```{6x6}``` Meaning this neural network is trained to solve each row, column and grid in 6x6 Sudoku.
           
-*  {original}
-          Meaning the payoff rule in the learning phase for this trained neural network is original.
+```{original}``` Meaning the payoff rule in the learning phase for this trained neural network is original.
           In other situation, for example, {odd_even} means the neural network must not only contain total different 
           numbers in a row but also have the odd being separated from even to gain bonus.
           
-*  {1}
-          Meaning the sample batch in the learning phase for this trained neural network is 1 per each learning epoch.
+```{1}``` Meaning the sample batch in the learning phase for this trained neural network is 1 per each learning epoch.
           
-*  {100x100x100}
-          Meaning the trained neural network has three hidden layers, each with 100 neurons.
+```{100x100x100}``` Meaning the trained neural network has three hidden layers, each with 100 neurons.
           
 *  {30}   Meaning the initial value for the set of slope multiplie to be updated in the learning phase.
           
