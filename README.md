@@ -65,8 +65,6 @@ scipy
 
 ## Running the tests
 
-Simply run the following content:
-
 ```
 Deducing.py  
 ```
