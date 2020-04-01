@@ -56,6 +56,7 @@ The meaning inside each bracket is listed below:
           Meaning the trained neural network has three hidden layers, each with 100 neurons.
           
 *  {30}
+
           Meaning the initial value for the set of slope multiplie to be updated in the learning phase.
           
 *  {0.000001}
