@@ -1,36 +1,43 @@
 # Deep Deducing on Sudoku
 
 This repository contains codes illustrating how deep deducing solves Sudoku.
+To reproduce the results in the paper, simply run Deducing_xxx.py
+
+
+## Requirements
+
+Packages requirements:
+
+```
+numpy
+```
+
+
+```
+scipy
+```
 
 ## Learning phase content
+
+To train sets of weight matrix in the paper, run this command:
 
 ```
 Learning.py            
 ```
 
-creates set of weight matrix.
-
-```
-Brain_for_learning.py
-```
-
-where simple deep feedforward neural network for Learning.py is imported.
 
 ## Deducing phase content
+To use sets of trained weight matrix to start to solve each row, column and grid of the Sudoku table, run this command:
 
 ```
-Deducing.py              
+Deducing_xxx.py              
 ```
 
-uses these sets of weight matrix to solve each row, column and grid of the Sudoku table.
 
-```
-Brain_for_deducing.py   
-```
 
-where simple deep feedforward neural network for Deducing.py is imported.
+## Already-trained Sets of weight matrix
 
-## Sets of weight matrix
+We have sets of weight matrix already-trained for your convenience. Please see the definition below to understand the content of each set of weight matrix.
 
 
 self.```6x6``` _ ```original``` _ ```1``` _ ```100x100x100``` _ ```30``` _ ```0.000001``` _ ```200m``` _ ```[1]``` _ ```weight_list```
@@ -73,21 +80,13 @@ means the label of this trained neural network under the above training conditio
 means the set of weight matrix of this trained neural network.
 
 
-## Prerequisites
-
-```
-numpy
-```
 
 
-```
-scipy
-```
+## Results
 
-## Running the tests
+For results, please refer to the supplementary material in the paper.
 
-```
-Deducing.py  
-```
+
+
 
 
