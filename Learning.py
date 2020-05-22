@@ -8,7 +8,7 @@ Thank you for reading this note. This code is the learning phase for deep deduci
 selected in the deducing phase.
 
 You may change or tune any of the following parameters or variables. However, it is recommended that you do so only if the following 
-note suggests so. Most of the parameters or variables that you are suggested to change or tune are coherent to Appendix A and C in the 
+note suggests so. Most of the parameters or variables that you are suggested to change or tune are coherent to supplementary material in the 
 paper.
 
 We hope you enjoy it.
@@ -190,7 +190,7 @@ The meaning of the notations are listed below:
                         Meaning the label of this trained neural network under the training condition {original}_{1}_{100x100x100}_{30}_{0.000001}_{100m}.
                 --- {weight_list}
                         Meaning the set of weight matrix of this trained neural network.
-            Each bracket correlates to the notations in Appendix C in the paper.
+            Each bracket correlates to the notations in supplementary material in the paper.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
 """
 

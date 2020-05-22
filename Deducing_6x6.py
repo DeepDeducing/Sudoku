@@ -22,7 +22,7 @@ We disected the same code into three codes for convenience reasons. So all you h
 note suggests you to change.
 
 You may change or tune any of the following parameters or variables. However, it is recommended that you do so only if the following 
-note suggests so. Most of the parameters or variables that you are suggested to change or tune are coherent to Appendix A and C in the 
+note suggests so. Most of the parameters or variables that you are suggested to change or tune are coherent to supplementary material in the 
 paper.
 
 We hope you enjoy it.
@@ -49,7 +49,7 @@ This part contains the basic functions listed below:
             will be represented as a (2, 2, 2) numpy array (with noise):
                 [[[ 3.51, -3.54], [-3.50,  3.51]],
                  [[-3.52, -3.53], [-3.51, -3.52]]]
-            The starting inner values may not have to be -3.5. However, to match the records in Appendix C in the paper. It is recommended 
+            The starting inner values may not have to be -3.5. However, to match the records in supplementary material in the paper. It is recommended 
             it is set to be -3.5.
     --- return_resistor:
             This function is to generate a (6, 6, 6) numpy array which tells the program "not" to update inner values for visible 
@@ -366,7 +366,7 @@ for table in range(times_of_trial):
                               {original}_{1}_{100x100x100}_{30}_{0.000001}_{200m}.
                       --- {weight_list}
                               Meaning the set of weight matrix of this trained neural network.
-                  Each bracket correlates to the notations in Appendix C in the paper.
+                  Each bracket correlates to the notations in supplementary material in the paper.
       -----------------------------------------------------------------------------------------------------------------------------------------------------
       """
 
@@ -414,7 +414,7 @@ for table in range(times_of_trial):
             And the inner value for visible number "2" will be:
             [-3.50, -3.51, -3.48, -3.52, -3.53, -3.49]     (with uniformly generated noise)
             Why -3.5? Because 1/(1+e^(-3.5)) = 0.029... is close to 0. So the initial neurons will have zero energy before mandatory pulse takes place.
-            The starting inner values may not have to be -3.5. However, to match the records in Appendix C in the paper. It is recommended 
+            The starting inner values may not have to be -3.5. However, to match the records in supplementary material in the paper. It is recommended 
             it is set to be -3.5.
       --- sudoku_table_inner:
             It returns the inner values table for a Sudoku table.
