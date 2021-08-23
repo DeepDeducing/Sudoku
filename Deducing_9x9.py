@@ -306,7 +306,7 @@ for table in range(times_of_trial):
 
     table_size      = 9
     # Referring to the amount of numbers being dropped in an answer table. we recommend readers to change this parameter, at most 81 for 9x9 Sudoku.
-    numbers_missing = 64
+    numbers_missing = 81
 
     answer_table    = generate_answer_table(table_size, table_size)
 
@@ -518,9 +518,9 @@ for table in range(times_of_trial):
 
     network_size                = np.array([table_size * table_size, 100, 100, 100, table_size])
     # Referring to deducing rate. we recommend readers to change this parameter.
-    beta                        = 0.05
+    beta                        = 0.1
     # Referring to deducing epcohs "between each mandatory pulse". we recommend readers to change this parameter.
-    epoch_of_deducing           = 4500
+    epoch_of_deducing           = 2500
     # Referring to the rate of neurons dropped out in the hidden layers. For example, if drop_rate = 0.2, it means 20% of the neurons in the hidden layers will be dropped out on a random base.  we recommend readers to change this parameter.
     drop_rate                   = 0.2
 
